@@ -5,7 +5,7 @@ const router = express.Router();
 
 app.use(express.static(path.join(__dirname, 'app')));
  
-router.get('/laura',function(req,res){
+router.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/app/lauras-id.html'));
 });
 
