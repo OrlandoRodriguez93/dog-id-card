@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    background-color: rgb(217, 217, 217);
+}
+
+.font-l {
+    color: rgb(83, 56, 44);
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+.mt-10 {
+    margin-top: 10%;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: 700;
+}
